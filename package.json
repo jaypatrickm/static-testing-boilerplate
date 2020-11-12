@@ -1,0 +1,17 @@
+{
+  "name": "static-testing-boilerplate",
+  "version": "1.0.0",
+  "description": "javascript setup with eslint, prettier, typescript, and husky",
+  "main": "index.js",
+  "repository": "git@github.com:jaypatrickm/static-testing-boilerplate.git",
+  "author": "<jaypatrickm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+"build":"babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
